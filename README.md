@@ -64,6 +64,11 @@ Click Authorize if the Cloud Shell authorization prompt appears.
 
 In the Cloud console, go to Artifact Registry > Repositories and notice your newly created Docker repository named container-dev-repo. If you click on it you can see that it's empty at the moment.
 
+Configure Docker Authentication to Artifact Registry
+When connecting to Artifact Registry credentials are required in order to provide access. Rather than set up separate credentials, Docker can be configured to use your gcloud credentials seamlessly.
+
+From Cloud Shell run the following command to configure Docker to use the Google Cloud CLI to authenticate requests to Artifact Registry in the <filled in at lab start> region:
+
 
 
 
