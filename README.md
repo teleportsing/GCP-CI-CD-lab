@@ -1,7 +1,7 @@
 # artifact-registry
 Artifact Registry is a single place to manage container images and language packages, and is fully integrated with Google Cloud tooling and and runtimes. This makes it simple to integrate it with your CI/CD tooling to set up automated pipelines
 
-#Task 1. Prepare the lab environment
+# Task 1. Prepare environment
 
 Set up variables<br />
 In Cloud Shell, set your project ID and project number. Save them as PROJECT_ID and PROJECT_NUMBER variables:
