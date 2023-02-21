@@ -69,14 +69,47 @@ When connecting to Artifact Registry credentials are required in order to provid
 
 From Cloud Shell run the following command to configure Docker to use the Google Cloud CLI to authenticate requests to Artifact Registry in the <filled in at lab start> region:
 
+```
+gcloud auth configure-docker "Filled in at lab start"-docker.pkg.dev
+```
+
+The command will prompt for a confirmation to change the Cloud Shell docker configuration, click ENTER.
+  
+Explore the sample Application
+A sample application is provided in the git repository you cloned.
+
+Change into the java directory and review the application code:
+
+```
+cd ~/cloud-code-samples/java/java-hello-world
+```
+The folder contains an example Java application that renders a simple web page: in addition to various files not relevant for this specific lab, it contains the source code, under the src folder, and a Dockerfile you will use to build a container image locally.
+
+Build the Container Image
+Before you can store container images in Artifact Registry you need to create one.
+
+Run the following command to build the container image and tag it properly:
+
+```
+docker build -t "REGION"-docker.pkg.dev/"PROJECT_ID"/container-dev-repo/java-hello-world:tag1 .
+```
+
+Push the Container Image to Artifact Registry
+Run the following command to push the container image to the repository you created:
+  
+```
+docker push "REGION"-docker.pkg.dev/"PROJECT_ID"/container-dev-repo/java-hello-world:tag1
+```
 
 
+Review the image in Artifact Registry
+In Artifact Registry > Repositories, click into container-dev-repo and check that the java-hello-world image is there.
 
+Click on the image and note the image tagged tag1. You can see that Vulnerability Scanning is running or already completed and the number of vulnerabilities detected is visible.
+  
 
-
-
-
-
+![](artifact_registry_repositories.png)
+  
 
 
 
