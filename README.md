@@ -11,5 +11,16 @@ export PROJECT_ID=$(gcloud config get-value project)
 export PROJECT_NUMBER=$(gcloud projects describe $PROJECT_ID --format='value(projectNumber)')
 export REGION="REGION"
 gcloud config set compute/region $REGION
+```
 
+Enable Google services<br />
+Run the following to enable necessary Google services:
+
+```
+gcloud services enable \
+  cloudresourcemanager.googleapis.com \
+  container.googleapis.com \
+  artifactregistry.googleapis.com \
+  containerregistry.googleapis.com \
+  containerscanning.googleapis.com
 ```
