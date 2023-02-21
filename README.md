@@ -244,6 +244,7 @@ Add the distributionManagement section
 ```
   
 Add the repositories section
+
   
 ```
 <repositories>
@@ -260,8 +261,10 @@ Add the repositories section
 </repositories>
 ```
 
+  
 Update the extensions in the Builds section
 
+   
 ```
 <extensions>
    <extension>
@@ -270,7 +273,8 @@ Update the extensions in the Builds section
      <version>2.1.0</version>
    </extension>
  </extensions>
-
+```
+  
 Here's an example of the complete file for your reference. Ensure to replace <PROJECT> with your project id.
   
 ```
