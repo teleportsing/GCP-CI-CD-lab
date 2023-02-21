@@ -110,6 +110,13 @@ Click on the image and note the image tagged tag1. You can see that Vulnerabilit
 
 ![](artifact_registry_repositories.png)
   
+Click on the number of vulnerabilities and you will see the list of vulnerabilities detected in the image, with the CVE bulletin name and the severity. Click VIEW on each listed vulnerability to get more details:
+  
+![](cve_bulletin_vulnerability_view.png)
+  
+  
+# Task 3. Integration with Cloud Code
+  
 
 
 
