@@ -1,4 +1,4 @@
-# CI-CD-Google-Cloud
+# CI/CD Google Cloud lab
 Artifact Registry, Cloud Build, Cloud Deploy,Binary Authorization.  
 Cloud console, Google Cloud CLI, Cloud Run, and GKE.  
 how to build CI pipelines, store and secure artifacts, scan for vulnerabilities, attest to the validity of approved releases.<br>
