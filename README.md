@@ -1,4 +1,4 @@
-# artifact-registry lab step
+# Working with Artifact Registry lab step
 Artifact Registry is a single place to manage container images and language packages, and is fully integrated with Google Cloud tooling and and runtimes. This makes it simple to integrate it with your CI/CD tooling to set up automated pipelines
 
 # Task 1. Prepare environment
