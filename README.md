@@ -5,7 +5,12 @@ Artifact Registry is a single place to manage container images and language pack
 
 Set up variables  
 * In Cloud Shell, set your project ID and project number. Save them as PROJECT_ID and PROJECT_NUMBER variables:  
-
+  * 1
+    * 2
+      * 3
+        * 4
+          * 5
+      
 ```
 export PROJECT_ID=$(gcloud config get-value project)
 export PROJECT_NUMBER=$(gcloud projects describe $PROJECT_ID --format='value(projectNumber)')
