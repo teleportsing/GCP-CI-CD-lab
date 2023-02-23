@@ -3,8 +3,8 @@ Artifact Registry is a single place to manage container images and language pack
 
 # Task 1. Prepare environment
 
-Set up variables<br />
-In Cloud Shell, set your project ID and project number. Save them as PROJECT_ID and PROJECT_NUMBER variables:
+Set up variables  
+*In Cloud Shell, set your project ID and project number. Save them as PROJECT_ID and PROJECT_NUMBER variables:
 
 ```
 export PROJECT_ID=$(gcloud config get-value project)
@@ -13,7 +13,7 @@ export REGION="REGION"
 gcloud config set compute/region $REGION
 ```
 
-Enable Google services<br />
+Enable Google services  
 Run the following to enable necessary Google services:
 
 ```
